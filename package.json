@@ -1,8 +1,11 @@
 {
-  "name": "Sample",
+  "name": "sample",
   "version": "1.0.0",
   "description": "A simple CAP project.",
-  "repository": "<Add your repository here>",
+  "repository": {
+    "type": "git",
+    "url": "<Add your repository here>"
+  },
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
@@ -14,5 +17,8 @@
   },
   "scripts": {
     "start": "cds-serve"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": ""
 }
